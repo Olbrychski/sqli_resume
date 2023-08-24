@@ -32,7 +32,7 @@ app.post("/api", (req, res) => {
     }
 )});
 
-//vulnerable query
+//Vulnerable query
 app.post("/login", function(req, res){
     const username1 = req.body.user1
     const password1 = req.body.password1
